@@ -1,0 +1,41 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="14" height="14" fill="#E5E5E5"/>
+<g id="Lucy-Pet Care Landing Page" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="7200" transform="translate(-597 -4900)" fill="#FFFAF5"/>
+<g id="Pricing" clip-path="url(#clip1_0_1)">
+<rect id="Rectangle 75" x="-597" y="-694" width="1440" height="933" fill="#FFF6ED"/>
+<g id="Group 85">
+<g id="Group 70">
+<g id="Rectangle 68" filter="url(#filter0_d_0_1)">
+<rect x="-28" y="-312" width="302" height="465" rx="20" fill="white"/>
+</g>
+<g id="Group 78">
+<g id="Group 74">
+<g id="Check">
+<path id="Vector" d="M11.8125 3.9375L5.6875 10.0622L2.625 7" stroke="#FF5B2E" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-72" y="-336" width="390" height="553" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="20"/>
+<feGaussianBlur stdDeviation="22"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.763395 0 0 0 0 0.424222 0 0 0 0 0.0850495 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="7200" fill="white" transform="translate(-597 -4900)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="1440" height="933" fill="white" transform="translate(-597 -694)"/>
+</clipPath>
+</defs>
+</svg>
