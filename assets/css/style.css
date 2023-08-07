@@ -365,6 +365,7 @@ img {
 }
 .c-achieve {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 .c-achieve__checkbox {
