@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -28,7 +28,7 @@
                     <li class="nav__item"><a href="#!">Contacts Us</a></li>
                 </ul>
             </nav>
-            <button class="header__btn btn">Sign Up</button>
+            <button class="header__btn btn">Sign up</button>
         </div>
     </header>
     <!--============== Hero ============== -->
@@ -73,7 +73,12 @@
                             class="hero__book-btn btn btn--orange"><span>Book a
                                 Meet</span>
                             <div class="round-arrow">
-                                <img src="./img/right-arrow.svg" alt="">
+                                <svg width="9" height="8" viewBox="0 0 9 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.48584 1.5L5.98584 4L3.48584 6.5" stroke="#FD5056"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
                             </div>
                         </button>
                         <a href="" class="hero__call-btn">Schedule a Call</a>
@@ -184,7 +189,7 @@
                         has its own private, spacious room and daily individual time in our large
                         play yard.</p>
                     <div class="t-features">
-                        <a href="#!" class="t-features__item">
+                        <a href="#!" class="t-features__item t-features__item--active">
                             <img src="./img/pet-board.svg" alt=""><span>Pet Boarding</span>
                         </a>
                         <a href="#!" class="t-features__item"> <img src="./img/pet-daycare.svg"
@@ -192,8 +197,23 @@
                         <a href="#!" class="t-features__item"><img src="./img/pet-transport.svg"
                                 alt=""><span>Pet Transport</span></a>
                     </div>
-                    <h2 class="features__title--small">While you're on holiday, here's where your
-                        furry friends will spend their time.</h2>
+                    <ul class="l-features">
+                        <li class="c-feature c-feature--active">
+                            <h2 class="features__title--small">While you're on holiday, here's where
+                                your
+                                furry friends will spend their time.</h2>
+                        </li>
+                        <li class="c-feature">
+                            <h2 class="features__title--small">While you're on holiday, here's where
+                                your
+                                furry friends will spend their time.</h2>
+                        </li>
+                        <li class="c-feature">
+                            <h2 class="features__title--small">While you're on holiday, here's where
+                                your
+                                furry friends will spend their time.</h2>
+                        </li>
+                    </ul>
                     <a class="features__more">View more</a>
                 </section>
             </section>
@@ -204,62 +224,86 @@
                 <p class="section__title--question">What we do for you?</p>
                 <h2 class="services__title section__title">Our Services</h2>
                 <div class="l-services">
-                    <section class="c-services">
-                        <h3 class="c-services__name section__title--small">Puppy Sitting</h3>
-                        <p class="c-services__content section__desc section__desc--small">
-                            Helping your new pup to be a good boy or girl isn’t always easy, but
-                            we’re
-                            here to help.
-                        </p>
-                        <a href="" class="c-services__readmore">Read More</a>
-                    </section>
-                    <div class="col-center">
+                    <div services__col-1>
+                        <section class="c-services">
+                            <h3><a class="c-services__name section__title--small" href="#!">Puppy
+                                    Sitting</a>
+                            </h3>
+                            <p class="c-services__content section__desc section__desc--small">
+                                Helping your new pup to be a good boy or girl isn’t always easy, but
+                                we’re
+                                here to help.
+                            </p>
+                            <a href="" class="c-services__readmore">Read More</a>
+                        </section>
+
+                        <section class="c-services">
+                            <h3><a class="c-services__name section__title--small" href="#!">Dog
+                                    Walking</a>
+                            </h3>
+                            <p class="c-services__content section__desc section__desc--small">
+                                Choose from a 30, 45, or 60-minute visit to give your pet their
+                                daily
+                                dose of fun-filled.
+                            </p>
+                            <a href="" class="c-services__readmore">Read More</a>
+                        </section>
+                        <section class="c-services">
+                            <h3><a class="c-services__name section__title--small" href="#!">Pet
+                                    Sitting</a></h3>
+                            <p class="c-services__content section__desc section__desc--small">
+                                While you’re away we can make sure your pet has all the food,
+                                water,
+                                exercise, and, of course.
+                            </p>
+                            <a href="" class="c-services__readmore">Read More</a>
+                        </section>
+                    </div>
+
+                    <div class="l-services__col-2">
                         <figure class="l-services__figure">
                             <img src="./img/services.png" alt="puppy dog">
                             <div class="l-services__figure-background"></div>
                         </figure>
                         <button class="btn services__view-all">View All Services</button>
                     </div>
-                    <section class="c-services">
-                        <h3 class="c-services__name section__title--small">Overnight Care</h3>
-                        <p class="c-services__content section__desc section__desc--small">
-                            If you’re away for the night, we can stay the night or stop by in the
-                            evening and morning.
-                        </p>
-                        <a href="" class="c-services__readmore">Read More</a>
-                    </section>
-                    <section class="c-services">
-                        <h3 class="c-services__name section__title--small">Dog Walking</h3>
-                        <p class="c-services__content section__desc section__desc--small">
-                            Choose from a 30, 45, or 60-minute visit to give your pet their daily
-                            dose of fun-filled.
-                        </p>
-                        <a href="" class="c-services__readmore">Read More</a>
-                    </section>
-                    <section class="c-services">
-                        <h3 class="c-services__name section__title--small">Pet Taxi</h3>
-                        <p class="c-services__content section__desc section__desc--small">
-                            Does your pet need a lift to the groomers, vet, or dog park? We’ve got
-                            their tail covered.
-                        </p>
-                        <a href="" class="c-services__readmore">Read More</a>
-                    </section>
-                    <section class="c-services">
-                        <h3 class="c-services__name section__title--small">Pet Sitting</h3>
-                        <p class="c-services__content section__desc section__desc--small">
-                            While you’re away we can make sure your pet has all the food, water,
-                            exercise, and, of course.
-                        </p>
-                        <a href="" class="c-services__readmore">Read More</a>
-                    </section>
-                    <section class="c-services">
-                        <h3 class="c-services__name section__title--small">Pet Medical Admin</h3>
-                        <p class="c-services__content section__desc section__desc--small">
-                            Our team of experienced professionals can help with everything from
-                            pills to injections.
-                        </p>
-                        <a href="" class="c-services__readmore">Read More</a>
-                    </section>
+
+                    <div class="l-services__col-3">
+                        <section class="c-services">
+                            <h3><a class="c-services__name section__title--small "
+                                    href="#!">Overnight Care</a>
+                            </h3>
+                            <p class="c-services__content section__desc section__desc--small">
+                                If you’re away for the night, we can stay the night or stop by in
+                                the
+                                evening and morning.
+                            </p>
+                            <a href="" class="c-services__readmore">Read More</a>
+                        </section>
+
+                        <section class="c-services">
+                            <h3><a class="c-services__name section__title--small" href="#!">Pet
+                                    Taxi</a></h3>
+                            <p class="c-services__content section__desc section__desc--small">
+                                Does your pet need a lift to the groomers, vet, or dog park? We’ve
+                                got
+                                their tail covered.
+                            </p>
+                            <a href="" class="c-services__readmore">Read More</a>
+                        </section>
+
+                        <section class="c-services">
+                            <h3><a href="#!" class="c-services__name section__title--small">Pet
+                                    Medical
+                                    Admin</a>
+                            </h3>
+                            <p class="c-services__content section__desc section__desc--small">
+                                Our team of experienced professionals can help with everything from
+                                pills to injections.
+                            </p>
+                            <a href="" class="c-services__readmore">Read More</a>
+                        </section>
+                    </div>
                 </div>
             </section>
         </section>
@@ -323,12 +367,15 @@
                     dog has its
                     own private, spacious room and daily individual time in our large play yard.</p>
                 <div class="pricing_row">
-                    <div class="pricing__toggle btn"><label class="pricing_toggle-month"><input
-                                type="radio" name="pack" value="monthly"
-                                hidden>Monthly</label><label
-                            class="pricing__toggle-year pricing__toggle--active"><input type="radio"
-                                name="pack" value="yearly" hidden>Yearly</label></div>
-                    <img src="./img/sale-off.svg" class="pricing__sales"></img>
+                    <div class="pricing__toggle btn"><input type="radio" name="pack" id="monthly"
+                            value="monthly" checked hidden><label for="monthly"
+                            class="pricing_toggle-month">Monthly</label><input id="yearly"
+                            type="radio" name="pack" value="yearly" hidden><label for="yearly"
+                            class="pricing__toggle-year">Yearly</label>
+                        <img src="./img/sale-off.svg" class="pricing__sales"></img>
+                        <div class="toggle-bg"></div>
+                    </div>
+
                 </div>
                 <div class="l-services-packs">
                     <article class="c-services-pack">
@@ -354,7 +401,7 @@
                         </ul>
                     </article>
 
-                    <article class="c-services-pack">
+                    <article class="c-services-pack c-services-pack--active">
                         <div class="c-services-pack__type">
                             Exclusive</div>
                         <div class="c-services-pack__level">2X
@@ -495,18 +542,24 @@
                 <ul class="l-blogs">
                     <li>
                         <article class="c-blog">
-                            <div class="c-blog__img-layout">
-                                <time datetime="2021-06-21"
-                                    class="c-blog__date section__desc section__desc--small">21 june
-                                    2021</time>
-                                <img src="./img/blog-1.png" alt="Building Bonds and Trusting Relationships with
-                                    Your Pets." class="c-blog__thubnail">
-                            </div>
-                            <h3 class="c-blog__title section__title--small line-clamp line-2">
-                                Building Bonds and
-                                Trusting Relationships
-                                with
-                                Your Pets.</h3>
+                            <a href="#!">
+                                <div class="c-blog__img-layout">
+                                    <time datetime="2021-06-21"
+                                        class="c-blog__date section__desc section__desc--small">21
+                                        june
+                                        2021</time>
+                                    <img src="./img/blog-1.png" alt="Building Bonds and Trusting Relationships with
+                                        Your Pets." class="c-blog__thubnail">
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <h3 class="c-blog__title section__title--small line-clamp line-2">
+                                    Building Bonds and
+                                    Trusting Relationships
+                                    with
+                                    Your Pets.
+                                </h3>
+                            </a>
                             <p
                                 class="c-blog__desc section__desc  section__desc--small line-clamp line-3">
                                 There isn’t
@@ -520,17 +573,22 @@
                     </li>
                     <li>
                         <article class="c-blog">
-                            <div class="c-blog__img-layout">
-                                <time datetime="2021-06-28"
-                                    class="c-blog__date section__desc section__desc--small ">28 june
-                                    2021</time>
-                                <img src="./img/blog-2.png" alt="Celebrity pet photographer Grace Chon on
-                                    taking ..." class="c-blog__thubnail">
-                            </div>
-                            <h3 class="c-blog__title section__title--small line-clamp line-2">
-                                Celebrity pet
-                                photographer Grace Chon on
-                                taking ...</h3>
+                            <a href="#!">
+                                <div class="c-blog__img-layout">
+                                    <time datetime="2021-06-28"
+                                        class="c-blog__date section__desc section__desc--small ">28
+                                        june
+                                        2021</time>
+                                    <img src="./img/blog-2.png" alt="Celebrity pet photographer Grace Chon on
+                                        taking ..." class="c-blog__thubnail">
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <h3 class="c-blog__title section__title--small line-clamp line-2">
+                                    Celebrity pet
+                                    photographer Grace Chon on
+                                    taking ...</h3>
+                            </a>
                             <p
                                 class="c-blog__desc section__desc  section__desc--small line-clamp line-3">
                                 Doting pet
@@ -542,20 +600,29 @@
                     </li>
                     <li>
                         <article class="c-blog">
-                            <div class="c-blog__img-layout">
-                                <time datetime="2021-07-10"
-                                    class="c-blog__date section__desc section__desc--small">10 july
-                                    2021</time>
-                                <img src="./img/blog-3.png"
-                                    alt="5 Simple Tricks To Create A More Conscious ..."
-                                    class="c-blog__thubnail">
-                            </div>
-                            <h3 class="c-blog__title section__title--small line-clamp line-2">Lorem
-                                ipsum dolor sit, amet consectetur adipisicing elit. Libero facere
-                                fuga consectetur quos consequuntur, nostrum officia. Atque amet quae
-                                non delectus, doloremque inventore neque nobis minima exercitationem
-                                itaque adipisci est.
-                            </h3>
+                            <a href="#!">
+                                <div class="c-blog__img-layout">
+                                    <time datetime="2021-07-10"
+                                        class="c-blog__date section__desc section__desc--small">10
+                                        july
+                                        2021</time>
+                                    <img src="./img/blog-3.png"
+                                        alt="5 Simple Tricks To Create A More Conscious ..."
+                                        class="c-blog__thubnail">
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <h3 class="c-blog__title section__title--small line-clamp line-2">
+                                    Lorem
+                                    ipsum dolor sit, amet consectetur adipisicing elit. Libero
+                                    facere
+                                    fuga consectetur quos consequuntur, nostrum officia. Atque amet
+                                    quae
+                                    non delectus, doloremque inventore neque nobis minima
+                                    exercitationem
+                                    itaque adipisci est.
+                                </h3>
+                            </a>
                             <p
                                 class="c-blog__desc section__desc section__desc--small line-clamp line-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi
@@ -571,55 +638,66 @@
     </main>
     <!--============== Footer ============== -->
     <footer class="footer">
-        <aside class="footer-aside">
-            <div class="footer-aside__logo"><img src="./img/footer-logo.svg" alt=""><img
-                    src="./img/footer-brandname.svg" alt=""></div>
-            <div class="footer__email-form">
-                <input class="footer__email-input" type="text" placeholder="Enter your email">
-                <label class="footer__email-submit reviews__nextbtn"><input type="submit"
-                        name="submit-btn" hidden>
-                    <svg width="45" height="46" viewBox="0 0 45 46" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M33.875 27.9985H20.125" stroke="currentColor" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M25.75 22.3735L20.125 27.9985L25.75 33.6235" stroke="currentColor"
-                            stroke-width=" 1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </label>
+        <div class="content">
+            <aside class="footer-aside">
+                <div class="footer-aside__logo"><img src="./img/footer-logo.svg" alt=""><img
+                        src="./img/footer-brandname.svg" alt=""></div>
+                <div class="footer__email-form">
+                    <input class="footer__email-input" type="text" placeholder="Enter your email">
+                    <label class="footer__email-submit reviews__nextbtn"><input type="submit"
+                            name="submit-btn" hidden>
+                        <svg width="45" height="46" viewBox="0 0 45 46" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.875 27.9985H20.125" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M25.75 22.3735L20.125 27.9985L25.75 33.6235"
+                                stroke="currentColor" stroke-width=" 1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </label>
+                </div>
+                <div class="footer__title">Follow Us</div>
+                <div class="footer__social"><a href="#!"><img src="./img/facebook.svg" alt=""></a><a
+                        href="#!"><img src="./img/twitter.svg" alt=""></a><a href="#!"><img
+                            src="./img/linkin.svg" alt=""></a><a href="#!"><img
+                            src="./img/instagram.svg" alt=""></a></div>
+            </aside>
+            <div class="footer__content">
+                <div class="footer__category">
+                    <ul class="footer__cell">
+                        <li class="footer__title">Explore</li>
+                        <li class="footer__item"><a>About Us</a></li>
+                        <li class="footer__item"><a>Services</a></li>
+                        <li class="footer__item"><a>Our Team</a></li>
+                        <li class="footer__item"><a>Adopt Pet</a></li>
+                    </ul>
+                    <ul class="footer__cell">
+                        <li class="footer__title">Useful links</li>
+                        <li class="footer__item"><a href="#!">FAQs</a></li>
+                        <li class="footer__item"><a href="#!">Shop</a></li>
+                        <li class="footer__item"><a href="#!">Privacy</a></li>
+                        <li class="footer__item"><a href="#!">Term of use</a></li>
+                        <li class="footer__item"><a href="#!">Site Map</a></li>
+                    </ul>
+                    <ul class="footer__cell">
+                        <li class="footer__title">Contact Info</li>
+                        <li class="footer__item"><a href="mailTo:abc@gmail.com">abc@gmail.com</a>
+                        </li>
+                        <li class="footer__item"><a href="tel:+840352917477">+84 0352 917 477</a>
+                        </li>
+                        <li class="footer__item"><a href="#!">HCM.City</a></li>
+                    </ul>
+                    <ul class="footer__cell">
+                        <li class="footer__title">Opening Time</li>
+                        <li class="footer__item"><a href="#!">Mon – Fri : 08.00 am – 20.00 pm</a>
+                        </li>
+                        <li class="footer__item"><a href="#!">Saturday : 09.00 am – 20.00 pm</a>
+                        </li>
+                        <li class="footer__item"><a href="#!">Sunday: We are Closed</a></li>
+                    </ul>
+                </div>
+                <p class="footer__copyright">Copyright & Design By Uihut</p>
             </div>
-            <div class="footer__title">Follow Us</div>
-        </aside>
-        <div class="footer__content">
-            <div class="footer__category">
-                <ul class="footer__cell">
-                    <li class="footer__title">Explore</li>
-                    <li class="footer__item"><a>About Us</a></li>
-                    <li class="footer__item"><a>Services</a></li>
-                    <li class="footer__item"><a>Our Team</a></li>
-                    <li class="footer__item"><a>Adopt Pet</a></li>
-                </ul>
-                <ul class="footer__cell">
-                    <li class="footer__title">Useful links</li>
-                    <li class="footer__item"><a href="#!">FAQs</a></li>
-                    <li class="footer__item"><a href="#!">Shop</a></li>
-                    <li class="footer__item"><a href="#!">Privacy</a></li>
-                    <li class="footer__item"><a href="#!">Term of use</a></li>
-                    <li class="footer__item"><a href="#!">Site Map</a></li>
-                </ul>
-                <ul class="footer__cell">
-                    <li class="footer__title">Contact Info</li>
-                    <li class="footer__item"><a href="mailTo:abc@gmail.com">abc@gmail.com</a></li>
-                    <li class="footer__item"><a href="tel:+840352917477">+84 0352 917 477</a></li>
-                    <li class="footer__item"><a href="#!">HCM.City</a></li>
-                </ul>
-                <ul class="footer__cell">
-                    <li class="footer__title">Opening Time</li>
-                    <li class="footer__item"><a href="#!">Mon – Fri : 08.00 am – 20.00 pm</a></li>
-                    <li class="footer__item"><a href="#!">Saturday : 09.00 am – 20.00 pm</a></li>
-                    <li class="footer__item"><a href="#!">Sunday: We are Closed</a></li>
-                </ul>
-            </div>
-            <p class="footer__copyright">Copyright & Design By Uihut</p>
         </div>
     </footer>
 </body>
